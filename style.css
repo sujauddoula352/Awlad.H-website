@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar>h2 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.navbar>button {
+    width: 228px;
+    height: 58px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 2px;
+
+}
+
+.banner_container {
+    border-top: 2px dashed rgb(151, 140, 140);
+    text-align: center;
+    background-image: url('./assets/Hero-bg.png');
+}
+
+.banner_content {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.banner>div>h1 {
+    font-size: 48px;
+    line-height: 68px;
+}
+
+.banner>div>p {
+    line-height: 30px;
+}
+
+.banner>div>button {
+    background-color: black;
+    color: aliceblue;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.development_card_container {
+    width: 1140px;
+    background-color: #0D132105;
+    border-radius: 30px;
+    padding: 97PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.development_content {
+    text-align: center;
+}
+
+.card_container {
+    border:1px;
+    display: flex;
+    gap: 30px;
+    padding: 48px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+}
+
+.card_container>div>button {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 10px;
+    border: 3px solid;
+    background-color: white;
+}
+
+.skill_card {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.skill_card>div>div>button {
+    border: none;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.html_card {
+    background-color: #FF4C1E0D;
+    padding: 29px;
+    border-radius: 15px;
+
+}
+
+.css_card {
+    background-color: #004CE80D;
+    padding: 29px;
+    border-radius: 15px;
+
+}
+
+.js_card {
+    background-color: #FFDF000D;
+    padding: 29px;
+    border-radius: 15px;
+
+}
+.More_skill_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid rgb(149, 141, 141);
+    border-radius:20px ;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.More_skill_card>div>button {
+    border: none;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.More_skill_card>div>img{
+    margin: 10PX;
+}
+
+.Support_Container{
+    width: 1140px;
+    padding: 140px;
+    margin: 150px;
+    text-align: center;
+    color:rgb(243, 207, 207);
+    border-radius: 15px;
+    background-image: url('./assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+.input_filed{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+font-size: 16px;
+    width: 450px;
+    border-radius: 10px;
+    padding:20px;
+}
+
+.input_filed>button{
+    font-size: 18px;
+    font-size: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
